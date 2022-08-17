@@ -23,7 +23,6 @@ body {
 }
 
 .calculator {
-  border-radius: none;
   width: 100%;
   max-width: 800px;
   min-height: 100vh;
@@ -36,7 +35,6 @@ body {
   padding: 1rem;
   background-color: var(--display);
   color: #fff;
-
   grid-column-start: 1;
   grid-column-end: 4;
   display: flex;
