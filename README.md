@@ -27,8 +27,12 @@
 ### Clone this repository
 
 - $ _git clone https://github.com/PNdunguMaina/Math-Magicians.git_
-- $ _git checkout feature/set-up_
 - $ _cd Math-Magicians_
+
+### Run project
+
+- $ _npm install_
+- $ _npm run start_
 
 ## Authors
 
