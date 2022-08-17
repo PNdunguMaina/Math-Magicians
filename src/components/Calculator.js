@@ -1,3 +1,5 @@
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/button-has-type */
 import React, { Component } from 'react';
 import Digits from './Digits';
 

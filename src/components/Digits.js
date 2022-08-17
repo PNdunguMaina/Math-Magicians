@@ -1,3 +1,5 @@
+/* eslint-disable no-plusplus */
+/* eslint-disable react/button-has-type */
 import React, { Component } from 'react';
 
 // Generate calculator digits
