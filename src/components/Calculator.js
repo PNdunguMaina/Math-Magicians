@@ -1,5 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable react/button-has-type */
 import React, { Component } from 'react';
 import Digits from './Digits';
 
@@ -21,10 +19,10 @@ class Calculator extends Component {
 
         {/* operator keys */}
         <div className="operator-keys">
-          <button>+</button>
+          <button>&#247;</button>
           <button>x</button>
           <button>-</button>
-          <button>/</button>
+          <button>+</button>
           <button>=</button>
         </div>
 

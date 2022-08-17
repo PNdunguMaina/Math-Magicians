@@ -1,6 +1,6 @@
 :root {
-  --display: #404040;
-  --digits: #f8f0e3;
+  --display: #787276;
+  --digits: #d3d3d3;
   --operators: #ff8b28;
 }
 
@@ -25,7 +25,7 @@ body {
 .calculator {
   width: 100%;
   max-width: 800px;
-  min-height: 100vh;
+  min-height: 80vh;
   overflow: hidden;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0);
   display: grid;
@@ -37,6 +37,7 @@ body {
   color: #fff;
   grid-column-start: 1;
   grid-column-end: 4;
+  grid-template-rows: 1fr;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -58,12 +59,15 @@ button {
 }
 
 .main-keys {
-  background-color: var(--digits);
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main-keys button {
+  background-color: var(--digits);
 }
 
 .operator-keys {
@@ -71,7 +75,7 @@ button {
   grid-row-start: 2;
   grid-row-end: 6;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .operator-keys button {
@@ -84,8 +88,8 @@ button {
   grid-column-start: 1;
   grid-column-end: 3;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .digit-keys button {
