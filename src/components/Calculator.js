@@ -39,67 +39,67 @@ class Calculator extends Component {
           <button type="submit" onClick={this.handleClick} id="AC">
             AC
           </button>
-          <button type='button' onClick={this.handleClick} id="+/-">
+          <button type="button" onClick={this.handleClick} id="+/-">
             +/-
           </button>
-          <button type='button' onClick={this.handleClick} id="%">
+          <button type="button" onClick={this.handleClick} id="%">
             %
           </button>
         </div>
 
         {/* operator keys */}
         <div className="operator-keys">
-          <button type='button' onClick={this.handleClick} id="&#247;">
+          <button type="button" onClick={this.handleClick} id="&#247;">
             &#247;
           </button>
-          <button type='button' onClick={this.handleClick} id="x">
+          <button type="button" onClick={this.handleClick} id="x">
             x
           </button>
-          <button type='button' onClick={this.handleClick} id="-">
+          <button type="button" onClick={this.handleClick} id="-">
             -
           </button>
-          <button type='button' onClick={this.handleClick} id="+">
+          <button type="button" onClick={this.handleClick} id="+">
             +
           </button>
-          <button type='submit' onClick={this.handleClick} id="=">
+          <button type="submit" onClick={this.handleClick} id="=">
             =
           </button>
         </div>
 
         {/* digit keys */}
         <div className="digit-keys">
-          <button type='button' onClick={this.handleClick} id="7">
+          <button type="button" onClick={this.handleClick} id="7">
             7
           </button>
-          <button type='button' onClick={this.handleClick} id="8">
+          <button type="button" onClick={this.handleClick} id="8">
             8
           </button>
-          <button type='button' onClick={this.handleClick} id="9">
+          <button type="button" onClick={this.handleClick} id="9">
             9
           </button>
-          <button type='button' onClick={this.handleClick} id="4">
+          <button type="button" onClick={this.handleClick} id="4">
             4
           </button>
-          <button type='button' onClick={this.handleClick} id="5">
+          <button type="button" onClick={this.handleClick} id="5">
             5
           </button>
-          <button type='button' onClick={this.handleClick} id="6">
+          <button type="button" onClick={this.handleClick} id="6">
             6
           </button>
-          <button type='button' onClick={this.handleClick} id="1">
+          <button type="button" onClick={this.handleClick} id="1">
             1
           </button>
-          <button type='button' onClick={this.handleClick} id="2">
+          <button type="button" onClick={this.handleClick} id="2">
             2
           </button>
-          <button type='button' onClick={this.handleClick} id="3">
+          <button type="button" onClick={this.handleClick} id="3">
             3
           </button>
           <div className="special-digits">
-            <button type='button' onClick={this.handleClick} id="0">
+            <button type="button" onClick={this.handleClick} id="0">
               0
             </button>
-            <button type='button' onClick={this.handleClick} id=".">
+            <button type="button" onClick={this.handleClick} id=".">
               .
             </button>
           </div>
