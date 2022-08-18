@@ -17,13 +17,16 @@ class Calculator extends Component {
     const button = event.target.id;
     this.setState((state) => calculate({ ...state }, button));
   };
+
   // displayed output
   output = () => {
     const { total, operation, next } = this.state;
     return (
-      <React.Fragment>
-        {total} {operation} {next}
-      </React.Fragment>
+      <>
+        {total}
+        {operation}
+        {next}
+      </>
     );
   };
 
