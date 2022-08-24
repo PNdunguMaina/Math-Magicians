@@ -1,0 +1,28 @@
+.homePageContainer {
+  padding: 3rem;
+}
+
+.homePageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePageHeader h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  position: absolute;
+  top: 13rem;
+  color: blue;
+}
+
+.homePageContent {
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+}
+
+.homePageContent p {
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
