@@ -30,7 +30,7 @@ class Calculator extends Component {
   render() {
     return (
       <>
-      <header className="calculatorPageHeading">
+      <header className="calculator-page-heading">
         <h1>Let&apos;s perform some calculations!</h1>
       </header>
         <div className="calculator">
