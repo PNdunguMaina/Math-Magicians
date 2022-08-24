@@ -1,23 +1,20 @@
-import React, { Component, Fragment } from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-// implement calculator component
-class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { total: '', next: '', operation: '' };
-    this.handleClick = this.handleClick.bind(this);
-  }
+const Calculator = () => {
+  const [output, setOutput] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  // event handler method
-  handleClick = (event) => {
-    const buttonName = event.target.id;
-    this.setState((state) => calculate({ ...state }, buttonName));
+  const handleClick = (event) => {
+    setOutput(calculate(output, event.target.id));
   };
 
   // displayed output
-  output = () => {
-    const { total, operation, next } = this.state;
+  const result = () => {
+    const { total, operation, next } = output;
     return (
       <>
         {total}
