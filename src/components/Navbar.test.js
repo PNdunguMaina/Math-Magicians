@@ -9,7 +9,7 @@ it('renders navbar as per expectation', () => {
   const tree = render(
     <Router>
       <Navbar />
-    </Router>
+    </Router>,
   );
   expect(tree).toMatchSnapshot();
 });

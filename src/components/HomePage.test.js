@@ -3,13 +3,13 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import HomePage from './HomePage'
+import HomePage from './HomePage';
 
 it('renders HomePage as per expectation', () => {
   const tree = render(
     <Router>
       <HomePage />
-    </Router>
-  )
+    </Router>,
+  );
   expect(tree).toMatchSnapshot();
 });

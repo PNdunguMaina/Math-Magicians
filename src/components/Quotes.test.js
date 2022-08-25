@@ -9,7 +9,7 @@ it('renders Quotes page as per expectation', () => {
   const tree = render(
     <Router>
       <Quotes />
-    </Router>
+    </Router>,
   );
   expect(tree).toMatchSnapshot();
 });

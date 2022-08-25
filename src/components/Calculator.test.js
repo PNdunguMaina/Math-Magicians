@@ -10,7 +10,7 @@ it('performs and displays calculations properly', () => {
   render(
     <Router>
       <Calculator />
-    </Router>
+    </Router>,
   );
   const key1 = screen.getByText('5');
   const operator = screen.getByText('x');
@@ -21,6 +21,6 @@ it('performs and displays calculations properly', () => {
   fireEvent.click(operator);
   fireEvent.click(key2);
   fireEvent.click(result);
-  const output = screen.getByText('3');
+  const output = screen.getByText('25');
   expect(output).toBeVisible();
 });
