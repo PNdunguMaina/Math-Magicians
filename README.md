@@ -34,6 +34,10 @@
 - $ _npm install_
 - $ _npm run start_
 
+## Live Demo
+
+[Live Demo Link](https://helpful-malasada-a89373.netlify.app/)
+
 ## Authors
 
 👤 **Patrick Maina**
