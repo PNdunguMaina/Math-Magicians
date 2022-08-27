@@ -11,15 +11,13 @@
 .homePageHeader h1 {
   font-size: 2rem;
   font-weight: 700;
-  position: absolute;
-  top: 13rem;
-  color: blue;
+  color: hsl(235, 89%, 63%);
 }
 
 .homePageContent {
   font-size: 1.5rem;
   line-height: 3.5rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .homePageContent p {
