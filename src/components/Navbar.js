@@ -3,38 +3,53 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   const navStyle = {
-    color: 'red',
+    color: 'hsla(0, 0%, 100%, 0.9)',
     top: '0',
-    position: 'absolute',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     width: '100vw',
-    padding: '3rem',
-    backgroundColor: 'black',
+    padding: '1rem 0',
+    borderBottom: '1px solid hsla(0, 20%, 50%, 0.9)',
+    position: 'sticky',
+    backgroundColor: 'hsl(0, 0%, 96%)',
   };
 
   const navItemStyle = {
     display: 'flex',
     gap: '3rem',
-    fontSize: '2rem',
+    fontSize: '1.5rem',
     fontWeight: '600',
-    color: 'red',
+    alignItems: 'center',
+  };
+
+  const navLinksStyle = {
+    color: 'hsla(0, 20%, 50%, 0.9)',
+    textDecoration: 'none',
   };
 
   return (
     <div className="navbarContainer" style={navStyle}>
       <div className="logo-container">
-        <h1 className="nav-logo">Math Magicians</h1>
+        <h1
+          className="nav-logo"
+          style={{
+            color: 'hsl(280, 100%, 50%)',
+            margin: 0,
+            fontSize: '1.5rem',
+          }}
+        >
+          Math Magicians
+        </h1>
       </div>
       <div className="links-container" style={navItemStyle}>
-        <Link style={{ color: 'red' }} to="/">
+        <Link style={navLinksStyle} to="/">
           Home
         </Link>
-        <Link style={{ color: 'red' }} to="/calculator">
+        <Link style={navLinksStyle} to="/calculator">
           Calculator
         </Link>
-        <Link style={{ color: 'red' }} to="/quotes">
+        <Link style={navLinksStyle} to="/quotes">
           Quote
         </Link>
       </div>
