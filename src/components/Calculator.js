@@ -25,7 +25,7 @@ function Calculator() {
   };
 
   return (
-    <>
+    <div className="calculator-container">
       <header className="calculator-page-heading">
         <h1>Let&apos;s perform some calculations!</h1>
       </header>
@@ -105,7 +105,7 @@ function Calculator() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

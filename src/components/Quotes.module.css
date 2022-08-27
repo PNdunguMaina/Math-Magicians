@@ -1,7 +1,25 @@
-.quote {
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 3rem;
-  color: red;
+@import url('http://fonts.cdnfonts.com/css/bad-script');
+
+body {
   background-color: rgb(217, 230, 225);
+}
+
+.quote {
+  font-weight: 600;
+  color: red;
+  font-size: 1.2rem;
+}
+
+.quotechild {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.quotechild cite {
+  font-family: Bad Script, sans-serif;
+  font-size: 2rem;
 }
