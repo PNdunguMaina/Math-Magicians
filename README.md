@@ -14,6 +14,9 @@
 - npm
 - Technology used: ESLint, Stylelint
 
+## Live Demo
+
+[Live Demo Link](https://helpful-malasada-a89373.netlify.app/)
 ## Getting Started
 
 ### Prerequisites
@@ -33,10 +36,6 @@
 
 - $ _npm install_
 - $ _npm run start_
-
-## Live Demo
-
-[Live Demo Link](https://helpful-malasada-a89373.netlify.app/)
 
 ## Authors
 
