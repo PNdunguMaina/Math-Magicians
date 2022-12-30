@@ -29,7 +29,7 @@ function Calculator() {
       <header className="calculator-page-heading">
         <h1>Let&apos;s perform some calculations!</h1>
       </header>
-      <div className="calculator">
+      <div className="calculator px-2">
         {/* display */}
         <div className="display">
           <span>{result()}</span>
