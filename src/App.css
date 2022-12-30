@@ -13,9 +13,10 @@
 
 .calculator-container {
   display: grid;
-  grid-template-columns: 30% 70%;
-  padding: 1.5rem 0;
+  grid-template-columns: 1fr;
+  padding: 3rem 0;
   justify-content: center;
+  align-items: center;
 }
 
 .calculator-container header {
@@ -101,4 +102,23 @@ button {
   grid-template-columns: 2fr 1fr;
   grid-column-start: 1;
   grid-column-end: 4;
+}
+
+@media (max-width: 675px) {
+  .calculator-page-heading h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 913px) {
+  .calculator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .calculator {
+    margin-top: 40px;
+  }
 }

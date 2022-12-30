@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './HomePage.module.css';
+import './HomePage.css';
 
 function HomePage() {
   return (
-    <div className={styles.homePageContainer}>
-      <header className={styles.homePageHeader}>
-        <h1>Welcome to our page</h1>
+    <div className="">
+      <header className="pt-4 d-flex justify-content-center">
+        <h1 className="pt-5 header">Welcome to our page</h1>
       </header>
-      <div className={styles.homePageContent}>
+      <div className="px-5 body d-flex align-items-center">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus,
           nisi nec elementum fermentum, quam nisl sagittis felis, a tempor
